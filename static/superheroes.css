@@ -4,14 +4,14 @@
 #nav-bar {
     border-bottom: 1px solid white;
     padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
     color: white;
     margin-bottom: 40px;
 }
 
 #id-div {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 50px;
     display:flex;
     justify-content:space-evenly;
@@ -24,7 +24,9 @@
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function:linear;
-
+}
+#dc-pic {
+    height: 450px;
 }
 
 @keyframes  pic{
@@ -66,12 +68,13 @@ h2 {
     text-align: center;
     background-color: black;
     padding-bottom: 140px;
-    margin-bottom: 40px;
-    border-bottom: 1px solid white;
+    margin-bottom: 20px;
     border-top: 1px solid white;
 }
 #hello {
     background-color: black;
+    margin-bottom: 30px;
+    border-bottom:1px solid white;
 }
 
 h3 {
@@ -104,6 +107,7 @@ li.hero-tab {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left:-10px;
 }
 li.hero-tab:hover {
     filter: grayscale(0%);

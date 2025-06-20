@@ -40,6 +40,9 @@ p{
     animation-timing-function:linear;
 
 }
+#dc-pic{
+    height:450;
+}
 
 @keyframes  pic{
     0% {
