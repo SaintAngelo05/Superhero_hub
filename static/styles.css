@@ -48,6 +48,11 @@ button {
     border: none;
     transition: background-color 0.3s ease-in-out;
 }
+
+a {
+    text-decoration: none;
+    color:white;
+}
 button:hover {
     background-color: rgb(202, 23, 23);
 }
