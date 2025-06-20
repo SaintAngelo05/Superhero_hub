@@ -6,8 +6,8 @@ app.secret_key= "simplekey"
 create_db()
 
 @app.route("/")
-def index():
-    render_template("index.html")
+def intro():
+    return render_template("index.html")
 
 
 @app.route('/register', methods=["GET","POST"])
