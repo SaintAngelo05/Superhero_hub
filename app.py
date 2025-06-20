@@ -6,7 +6,7 @@ app.secret_key= "simplekey"
 create_db()
 
 @app.route("/")
-def intro():
+def index():
     render_template("index.html")
 
 
