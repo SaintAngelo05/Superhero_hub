@@ -1,0 +1,54 @@
+* {
+    margin:0;
+}
+/*Index.html css*/
+#i-body {
+    background: linear-gradient(to right,rgb(13, 33, 77),rgb(21, 124, 221));
+    /*box-shadow: inset 0 0 20px rgba(255, 255, 255, 1);*/
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    top: 0;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+}
+
+p{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#id-div {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+img {
+    height: 350px;
+    width:  350px;
+    border-radius: 50%;
+}
+
+#div-btn {
+    text-align: center;
+}
+
+button {
+    width: 300px;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /*font-family: "Marvel", sans-serif;*/
+    color: antiquewhite;
+    font-size: 40px;
+    border-radius: 10px;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+button:hover {
+    background-color: rgb(202, 23, 23);
+}
+

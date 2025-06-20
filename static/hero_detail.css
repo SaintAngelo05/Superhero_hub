@@ -1,0 +1,83 @@
+* {
+    margin:0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background: linear-gradient(to right,rgb(13, 33, 77),rgb(21, 124, 221));
+    color: white;
+    text-align: center;
+}
+
+#nav-bar {
+    background: transparent;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size:30px;
+    transition: color 0.2s ease-in-out;
+}
+a:hover {
+    color:rgb(237, 209, 27);
+}
+
+h2 {
+    color: rgb(239, 194, 32);
+    background-color: black;
+    padding:20px;
+    font-size:50px;
+    margin-bottom: 30px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+img {
+    height: 350px;
+    width:  350px;
+    border-radius: 50%;
+}
+
+#hero-desc{
+    background:linear-gradient(to right,rgb(215, 175, 11),rgb(255, 153, 0));
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#abt-hero{
+    background-color: black;
+    margin-bottom: 30px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+h3{
+    color: white;
+    padding:20px;
+    font-size:30px;
+    margin-bottom: 30px;
+}
+
+iframe{
+    border-radius: 15px;
+}
+
+footer{
+    background-color: red;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+#d-design {
+    color: white;
+    font-size: 30px;
+}
