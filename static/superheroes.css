@@ -9,6 +9,33 @@
     margin-bottom: 40px;
 }
 
+#id-div {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.pic {
+    height: 350px;
+    width:  350px;
+    border-radius: 50%;
+    animation-name: pic;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+
+}
+
+@keyframes  pic{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
 #list-tab {
     color:white;
     text-decoration: none;
@@ -42,6 +69,9 @@ h2 {
     margin-bottom: 40px;
     border-bottom: 1px solid white;
     border-top: 1px solid white;
+}
+#hello {
+    background-color: black;
 }
 
 h3 {

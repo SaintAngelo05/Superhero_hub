@@ -26,8 +26,8 @@ def register():
 @app.route("/login", methods=["GET","POST"])
 def login():
     if request.method=="POST":
-        email=request.form("login_email")
-        password = request.form("login_password")
+        email=request.form["login_email"]
+        password = request.form["login_password"]
         user = check_user(email,password)
         if user:#if it doesn't return "None", the folowing should happen
             session['user_id'] = user['id']

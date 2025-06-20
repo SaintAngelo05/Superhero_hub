@@ -21,15 +21,33 @@ p{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+
 #id-div {
     text-align: center;
     margin-top: 150px;
     margin-bottom: 50px;
+    display:flex;
+    justify-content:space-evenly
 }
-img {
+.pic {
     height: 350px;
     width:  350px;
     border-radius: 50%;
+    animation-name: pic;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+
+}
+
+@keyframes  pic{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
 }
 
 #div-btn {
