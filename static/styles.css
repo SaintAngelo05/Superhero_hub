@@ -38,11 +38,8 @@ p{
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function:linear;
+}
 
-}
-#dc-pic{
-    height:450;
-}
 
 @keyframes  pic{
     0% {

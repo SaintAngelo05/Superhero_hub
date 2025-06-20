@@ -7,6 +7,9 @@
     padding-top: 10px;
     color: white;
     margin-bottom: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
 }
 
 #id-div {
@@ -25,9 +28,7 @@
     animation-iteration-count: infinite;
     animation-timing-function:linear;
 }
-#dc-pic {
-    height: 450px;
-}
+
 
 @keyframes  pic{
     0% {
@@ -95,6 +96,7 @@ ul {
     border-bottom: 1px solid white;
     height: 90%;
     margin-bottom: 30px;
+    margin-left:-10px;
 }
 li.hero-tab {
     background-color: rgba(0, 0, 0, 0.8);
@@ -107,7 +109,7 @@ li.hero-tab {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left:-10px;
+    
 }
 li.hero-tab:hover {
     filter: grayscale(0%);
