@@ -11,6 +11,18 @@ function ShowElement(element){
     domProperty.style.opacity = 1;
 }
 
+document.getElementById('sRegister').addEventListener('click', function() {
+  document.getElementById('login').classList.add('hidden');
+  document.getElementById('register').classList.remove('hidden');
+});
+
+document.getElementById('sLogin').addEventListener('click', function() {
+  document.getElementById('register').classList.add('hidden');
+  document.getElementById('login').classList.remove('hidden');
+});
+
+
+
 //The follwing code is used to hide a specific element (div) on the page
 function HideElement(element){
 

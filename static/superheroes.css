@@ -6,10 +6,23 @@
     padding-bottom: 20px;
     padding-top: 10px;
     color: white;
-    margin-bottom: 40px;
-    background-color: black;
+    background-color: rgb(6, 35, 112);
+
+}
+#list-tab {
     display: flex;
     justify-content: space-between;
+}
+#l-tab {
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.2s ease-in-out;
+    font-weight:bold;
+}
+
+#l-tab:hover {
+    color:rgb(237, 209, 27);
 }
 
 #id-div {
@@ -19,6 +32,8 @@
     display:flex;
     justify-content:space-evenly;
 }
+
+
 .pic {
     height: 350px;
     width:  350px;
@@ -39,18 +54,6 @@
     }
 }
 
-#list-tab {
-    color:white;
-    text-decoration: none;
-    font-size: 30px;
-    transition: color 0.2s ease-in-out;
-}
-
-#list-tab:hover {
-    color:rgb(237, 209, 27);
-}
-
-
 body {
     background: linear-gradient(to right,rgb(13, 33, 77),rgb(21, 124, 221));
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -67,13 +70,13 @@ h2 {
     color: rgb(239, 194, 32);
     font-size: 50px;
     text-align: center;
-    background-color: black;
+    background-color: rgb(10, 60, 151);
     padding-bottom: 140px;
-    margin-bottom: 20px;
+    padding-top: 140px;
     border-top: 1px solid white;
 }
 #hello {
-    background-color: black;
+    background-color: rgb(9, 86, 202);
     margin-bottom: 30px;
     border-bottom:1px solid white;
 }
@@ -97,6 +100,7 @@ ul {
     height: 90%;
     margin-bottom: 30px;
     margin-left:-10px;
+    padding:20px;
 }
 li.hero-tab {
     background-color: rgba(0, 0, 0, 0.8);
@@ -152,12 +156,11 @@ li.hero-tab a:hover {
 
 footer{
     background-color: red;
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
 }
 
 #d-design {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
+    padding:30px;
 }
