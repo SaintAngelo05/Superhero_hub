@@ -16,8 +16,10 @@
         </nav>
     </header>
     <h2>{{ hero.name }}</h2>
+    <div id="h-tab">
     <img src="{{ hero.image_url }}" alt="{{ hero.name }}" width="200">
     <p id="hero-desc">{{ hero.description }}</p>
+    </div>
     <div id="abt-hero">
     <h3>Watch a Video</h3>
     <iframe width="560" height="315" src="{{ hero.video_url }}" frameborder="0" allowfullscreen></iframe>

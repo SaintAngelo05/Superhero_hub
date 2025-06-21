@@ -32,26 +32,36 @@ a:hover {
     color:rgb(237, 209, 27);
 }
 
+
 h2 {
     color: rgb(239, 194, 32);
     background-color: black;
     padding:20px;
     font-size:50px;
-    margin-bottom: 30px;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
 }
 
+#h-tab {
+    background:linear-gradient(to right, red,black) ;
+    display:flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
 img {
-    height: 350px;
-    width:  350px;
+    height: 330px;
+    width:  300px;
     border-radius: 50%;
+    border:3px solid white;
+    margin-top: 15px;
+    padding:20px;
 }
 
 #hero-desc{
-    background:linear-gradient(to right,rgb(215, 175, 11),rgb(255, 153, 0));
     margin-top: 30px;
-    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 #abt-hero{
@@ -69,6 +79,8 @@ h3{
 
 iframe{
     border-radius: 15px;
+    height: 500px;
+    margin-bottom: 30px;
 }
 
 footer{
