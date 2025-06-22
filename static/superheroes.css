@@ -104,10 +104,10 @@ ul {
 }
 
 span {
-    border-radius: 50%;
+    border-radius: 2px;
     background-color: grey;
     border:3px solid white;
-    padding:10px;
+    padding:5px;
 }
 li.hero-tab {
     background-color: rgba(0, 0, 0, 0.8);
