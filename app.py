@@ -3,6 +3,7 @@ from flask import Flask, render_template, request, redirect, url_for, flash, ses
 
 app= Flask(__name__)
 app.secret_key= "simplekey"
+
 create_db()
 
 @app.route("/")
@@ -16,7 +17,7 @@ def register():
         username = request.form['register_username']
         email = request.form['register_email']
         password = request.form['register_password']
-        if add_user(username, email, password):#if the have been added the following will happen
+        if add_user(username, email, password):#if the have been added, the following will happen
             flash('Account created! Please log in.')
             return redirect(url_for('login'))  # This is a Redirect to login form
         flash('Username or email already exists.')

@@ -102,6 +102,13 @@ ul {
     margin-left:-10px;
     padding:20px;
 }
+
+span {
+    border-radius: 50%;
+    background-color: grey;
+    border:3px solid white;
+    padding:10px;
+}
 li.hero-tab {
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 10px;
@@ -163,4 +170,34 @@ footer{
     font-size: 20px;
     text-align: center;
     padding:30px;
+}
+
+#heroes-ul {
+    text-align:center;
+    font-weight:bold;
+    background-color:rgb(97, 2, 2);
+    padding:20px;
+    color:white;
+}
+
+
+
+#link-heroes-dc {
+    text-decoration:none;  
+    color:grey;
+    transition:color 0.2s ease-in-out;
+}
+
+#link-heroes-marvel {
+    text-decoration:none;  
+    color:grey;
+    transition:color 0.2s ease-in-out;
+}
+
+#link-heroes-dc:hover{
+    color:rgb(17, 39, 138);
+}
+
+#link-heroes-marvel:hover{
+    color:rgb(189, 177, 16);
 }

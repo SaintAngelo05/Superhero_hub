@@ -63,7 +63,7 @@ img {
 
 #hero-desc{
     margin-top: 30px;
-    font-size: 35px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -88,11 +88,40 @@ iframe{
 
 footer{
     background-color: red;
-
 }
 
 #d-design {
     color: white;
     font-size: 20px;
     padding:30px;
+}
+
+#heroes-ul {
+    text-align:center;
+    font-weight:bold;
+    background-color:rgb(97, 2, 2);
+    padding:20px;
+    color:white;
+}
+
+
+
+#link-heroes-dc {
+    text-decoration:none;  
+    color:grey;
+    transition:color 0.2s ease-in-out;
+}
+
+#link-heroes-marvel {
+    text-decoration:none;  
+    color:grey;
+    transition:color 0.2s ease-in-out;
+}
+
+#link-heroes-dc:hover{
+    color:rgb(17, 39, 138);
+}
+
+#link-heroes-marvel:hover{
+    color:rgb(189, 177, 16);
 }
